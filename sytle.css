@@ -1,0 +1,100 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background-color: #f4f6f9;
+  color: #333;
+}
+
+.hero {
+  background: linear-gradient(to right, #1f3c88, #3b5998);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.tagline {
+  margin: 10px 0 20px;
+  font-size: 18px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: white;
+  color: #1f3c88;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #222;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #1f3c88;
+}
+
+section {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills-grid span {
+  background-color: #1f3c88;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.card {
+  margin-top: 15px;
+  padding: 15px;
+  border-left: 4px solid #1f3c88;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1f3c88;
+  color: white;
+  margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+  .hero {
+    padding: 40px 15px;
+  }
+
+  nav a {
+    padding: 10px;
+  }
+}
